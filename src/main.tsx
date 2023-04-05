@@ -33,7 +33,7 @@ const router = createBrowserRouter([
     }
 ],
     {
-        basename: '/weeby'
+        basename: import.meta.env.BASE_URL
     }
     );
 

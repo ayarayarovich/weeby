@@ -59,7 +59,7 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [tsconfigPaths(), react()],
 
-    base: "/dist",
+    base: "/weeby",
     publicDir: "./public",
 
     server: serverOptions,
